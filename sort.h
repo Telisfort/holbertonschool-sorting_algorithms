@@ -4,24 +4,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Comparison direction macros for bitonic sort*/
-#define UP 0
-#define DOWN 1
+/* Macros pour la direction de comparaison pour le tri bitonique */
+#define HAUT 0
+#define BAS 1
 
-/*enum bool - Enumeration of boolean values*/
+/* Énumération des valeurs booléennes */
 typedef enum bool
 {
-    false = 0,
-    true
+    faux = 0,
+    vrai
 } bool;
 
 
 /**
- * struct listint_s - Doubly linked list node
+ * struct listint_s - Noeud d'une liste doublement chaînée
  *
- * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @n: Entier stocké dans le nœud
+ * @prev: Pointeur vers l'élément précédent de la liste
+ * @next: Pointeur vers l'élément suivant de la liste
  */
 typedef struct listint_s
 {
@@ -30,19 +30,18 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-/*Helper for swapping*/
+/* Fonction d'aide pour l'échange d'entiers */
 void swap_ints(int *a, int *b);
 
-/*Printing helper functions */
+/* Fonctions d'impression */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/*Regular functions prototypes*/
+/* Prototypes des fonctions de tri */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 
-
-
 #endif
+
