@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - Échange deux entiers dans un tableau.
+ * @a: Le premier entier à échanger.
+ * @b: Le deuxième entier à échanger.
  */
 void swap_ints(int *a, int *b)
 {
@@ -15,11 +15,11 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bubble_sort - Sort an array of integers in ascending order.
- * @array: An array of integers to sort.
- * @size: The size of the array.
+ * bubble_sort - Trie un tableau d'entiers par ordre croissant.
+ * @array: Un tableau d'entiers à trier.
+ * @size: La taille du tableau.
  *
- * Description: Prints the array after each swap.
+ * Description : Imprime le tableau après chaque échange.
  */
 void bubble_sort(int *array, size_t size)
 {
@@ -44,3 +44,4 @@ void bubble_sort(int *array, size_t size)
 		len--;
 	}
 }
+
