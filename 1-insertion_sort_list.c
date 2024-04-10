@@ -1,10 +1,10 @@
 #include "sort.h"
 
 /**
- * swap_nodes - Swap two nodes in a listint_t doubly-linked list.
- * @h: A pointer to the head of the doubly-linked list.
- * @n1: A pointer to the first node to swap.
- * @n2: The second node to swap.
+ * swap_nodes - Échange deux nœuds dans une liste doublement chaînée de type listint_t.
+ * @h: Un pointeur vers la tête de la liste doublement chaînée.
+ * @n1: Un pointeur vers le premier nœud à échanger.
+ * @n2: Le deuxième nœud à échanger.
  */
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 {
@@ -22,11 +22,10 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 }
 
 
-
 /**
- * insertion_sort_list - sorts a doubly linked list of
- * integers in ascending order
- * @list: A pointer to the head of the doubly linked list
+ * insertion_sort_list - trie une liste doublement chaînée d'entiers
+ * dans l'ordre croissant
+ * @list: Un pointeur vers la tête de la liste doublement chaînée
  *
  */
 void insertion_sort_list(listint_t **list)
@@ -47,6 +46,4 @@ void insertion_sort_list(listint_t **list)
 		}
 
 	}
-
-
 }
