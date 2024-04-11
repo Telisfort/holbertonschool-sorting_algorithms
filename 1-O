@@ -1,3 +1,11 @@
 O(n)
 O(n^2)
 O(n^2)
+
+/**
+*O(n) : Cet algorithme a une complexité linéaire. Le temps d'exécution de l'algorithme augmente linéairement avec la taille de l'entrée. Par exemple, parcourir une liste ou un tableau une seule fois.
+
+*O(n^2) : Cet algorithme a une complexité quadratique. Le temps d'exécution de l'algorithme est proportionnel au carré de la taille de l'entrée. Par exemple, parcourir une liste ou un tableau deux fois imbriquées.
+
+*O(n^3) : Cet algorithme a une complexité cubique. Le temps d'exécution de l'algorithme est proportionnel au cube de la taille de l'entrée. Par exemple, parcourir une liste ou un tableau trois fois imbriquées.
+**/
